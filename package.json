@@ -1,0 +1,16 @@
+{
+    "name": "workspace",
+    "version": "1.0.0",
+    "description": "",
+    "main": "message.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon message.js",
+        "start-server": "node message.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
