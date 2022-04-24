@@ -2,21 +2,23 @@
     "name": "workspace",
     "version": "1.0.0",
     "description": "",
-    "main": "message.js",
+    "main": "admin.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon app.js",
+        "start": "node app.js",
         "start-server": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vetriswa/demo.git"
     },
     "author": "",
     "license": "ISC",
-    "devDependencies": {
-        "nodemon": "^2.0.15"
+    "bugs": {
+        "url": "https://github.com/vetriswa/demo/issues"
     },
+    "homepage": "https://github.com/vetriswa/demo#readme",
     "dependencies": {
-        "body": "^5.1.0",
-        "body-parser": "^1.20.0",
-        "express": "^4.17.3",
-        "parser": "^0.1.4"
+        "nodemon": "^2.0.15"
     }
 }
